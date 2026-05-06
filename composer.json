@@ -1,0 +1,28 @@
+{
+    "name": "pubvana/search",
+    "description": "Search package for Pubvana",
+    "type": "flightphp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "enlivenapp",
+            "email": "mw@enlivenapp.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "enlivenapp/flight-school": "^0.3",
+        "enlivenapp/flight-shield": "^0.2",
+        "enlivenapp/flight-settings": "^0.2",
+        "enlivenapp/migrations": "^0.2",
+        "flightphp/active-record": "^0.7"
+    },
+    "suggest": {
+        "pubvana/admin": "UI and functionality for Searching content"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pubvana\\Search\\": "src/"
+        }
+    }
+}
